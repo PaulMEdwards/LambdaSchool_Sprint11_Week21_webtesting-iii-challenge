@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls Locked Open 1`] = `
+<DocumentFragment>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Unlock Gate
+    </button>
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Close Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Controls Unlocked Closed 1`] = `
+<DocumentFragment>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Controls Unlocked Closed 2`] = `
+<DocumentFragment>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Controls Unlocked Open 1`] = `
+<DocumentFragment>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
