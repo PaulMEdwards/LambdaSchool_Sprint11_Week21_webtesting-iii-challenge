@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render the Dashboard & verify default initial state 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Render the Dashboard Locked Closed & Unlock Gate 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led red-led"
+    >
+      Locked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Unlock Gate
+    </button>
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Open Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Render the Dashboard Unlocked Closed & Lock Gate 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Render the Dashboard Unlocked Closed & Open Gate 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Open Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Render the Dashboard Unlocked Open & Close Gate 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+  <div
+    class="controls panel"
+  >
+    <button
+      class="toggle-btn"
+      disabled=""
+    >
+      Lock Gate
+    </button>
+    <button
+      class="toggle-btn"
+    >
+      Close Gate
+    </button>
+  </div>
+</DocumentFragment>
+`;

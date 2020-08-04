@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Closed Locked 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led red-led"
+    >
+      Locked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Display Closed Unlocked 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led red-led"
+    >
+      Closed
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Display Open Locked 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led red-led"
+    >
+      Locked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Display Open Unlocked 1`] = `
+<DocumentFragment>
+  <div
+    class="display panel"
+  >
+    <div
+      class="led green-led"
+    >
+      Unlocked
+    </div>
+    <div
+      class="led green-led"
+    >
+      Open
+    </div>
+  </div>
+</DocumentFragment>
+`;
